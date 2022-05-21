@@ -1,0 +1,7 @@
+<suite thread-count="1" verbose="1" name="Automation task of Brain Station 23">
+    <test name = "Registration process for 2 users">
+        <classes>
+            <class name="testrunner.FirstTestCaseRunner"/>
+        </classes>
+    </test>
+</suite>
