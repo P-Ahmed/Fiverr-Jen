@@ -19,7 +19,7 @@ public class Setup {
         ops.addArguments("--headed");
         driver = new ChromeDriver(ops);
         driver.manage().window().maximize();
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
         driver.get("https://staging.classkick.com/#/account/login");
 
 //    @AfterTest
